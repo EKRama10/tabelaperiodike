@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Formular.</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+            Emri:
+            <div>
+                <input name="name" type="text" placeholder="Emri">
+            </div>
+            Mbiemri:
+            <div>
+            <input name="surname" type="text" placeholder="Mbiemri">
+            </div>
+            Gjinia juaj eshte:
+            <div>          
+                <input name="gender" list="gender" placeholder="Gjinia">
+                  <datalist id="gender">
+                      <option value="Mashkull">
+                      <option value="Femer">          
+            </div>
+            Datlindja:
+            <div>
+                <input name="date" type="date">
+            </div>
+            Nga vjen:
+            <div>
+                <input name="countries" list="countries" placeholder="Shteti">
+                  <datalist id="countries">
+                        <option value="Italia">
+                        <option value="Shqiperia">
+                        <option value="Kosova">
+                        <option value="Republika e Maqedonise se Veriut">
+                        <option value="Mali i Zi">
+            </div>
+            E-maili:
+            <div>
+                <input name="e-mail" type="email" placeholder="E-Mail">
+            </div>
+            Fjalkalimi:
+            <div>
+                <input name="password" type="password" placeholder="qwertyuiop">
+            </div>
+            <input id="id" type="submit">       
+        </form>
+    </body>
+</html>
