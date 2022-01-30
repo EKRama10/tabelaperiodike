@@ -1,0 +1,56 @@
+#titulli { 
+    color: red; 
+    text-align: center; 
+    background-color: black; 
+    padding: 20px;
+}
+table { 
+    border: 1px solid black; 
+    border-collapse: collapse; 
+}
+td, th { 
+    border: 1px solid black;
+    padding: 2px 
+}
+body { 
+    font-family: Arial; 
+}
+button {
+    background-color: black;
+    color: red;
+    height: 50px; 
+    width: 100px;
+}
+button:hover {
+    background-color: blue;
+    color: skyblue;
+}
+button:active {
+    background-color: gray;
+    color: white;
+}
+h1 {
+    color: red
+}
+#grupi {
+    display: flex;
+    flex-wrap: wrap;
+}
+#grupi>div {
+    background-color: white;
+    font-size: 30px;
+    width: 100px;
+    padding: 10px;
+    margin: 20px;
+}
+@media (max-width: 800px) {
+    body {
+        background-color: blue;
+        font-size: 50px;
+    }
+}
+@media (min-width: 799px) {
+    body {
+        background-color: orange;
+    }
+}
